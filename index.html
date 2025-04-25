@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pilih Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #fff0f5;
+      color: #333;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .login-container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      color: #e75480;
+    }
+    .login-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+      margin: 10px auto;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      color: white;
+      gap: 10px;
+    }
+    .google { background-color: #db4437; }
+    .facebook { background-color: #1877f2; }
+    .tiktok {
+      background: linear-gradient(45deg, #000000, #ffffff);
+      color: black;
+    }
+    .instagram {
+      background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    }
+    .login-button i { font-size: 20px; }
+
+    .inspo-section {
+      background-color: #fff;
+      padding: 30px 20px;
+      border-top: 2px solid #ffc0cb;
+      text-align: left;
+      max-width: 600px;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+    .inspo-section h2 {
+      color: #e75480;
+      text-align: center;
+    }
+    .inspo-section ul {
+      list-style: heart;
+      padding-left: 20px;
+    }
+    .inspo-section li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login ke Sistem</h1>
+    <button class="login-button google" onclick="window.location.href='google-login.html'">
+      <i class="fab fa-google"></i> Login dengan Google
+    </button>
+    <button class="login-button facebook" onclick="window.location.href='facebook-login.html'">
+      <i class="fab fa-facebook-f"></i> Login dengan Facebook
+    </button>
+    <button class="login-button tiktok" onclick="window.location.href='tiktok-login.html'">
+      <i class="fab fa-tiktok"></i> Login dengan TikTok
+    </button>
+    <button class="login-button instagram" onclick="window.location.href='instagram-login.html'">
+      <i class="fab fa-instagram"></i> Login dengan Instagram
+    </button>
+  </div>
+
+  <section class="inspo-section">
+    <h2>Yang Cewek-Cewek Suka</h2>
+    <ul>
+      <li>Inspirasi outfit & makeup dari <strong>Pinterest</strong></li>
+      <li>Produk kecantikan dari <strong>Sociolla</strong> & <strong>Sephora</strong></li>
+      <li>Artikel lifestyle & relationship dari <strong>IDN Times</strong> & <strong>Popbela</strong></li>
+      <li>Belanja barang lucu di <strong>Zalora</strong>, <strong>Shopee</strong></li>
+      <li>Self-care & kesehatan lewat <strong>Flo</strong>, <strong>Clue</strong>, dll</li>
+    </ul>
+  </section>
+</body>
+</html>
